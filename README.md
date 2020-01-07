@@ -10,7 +10,7 @@ Grabs a screenshot from a video every n frames. Change input video in code.
 
 `python net.py`
 
-* To test the model with an already existing model:
+* To test with an already existing model:
 
 `python test.py`
 
