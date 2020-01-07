@@ -33,7 +33,7 @@ model.add(Dense(4, activation = 'softmax'))
 model.compile(loss = 'categorical_crossentropy', optimizer = 'adam', metrics = ['accuracy'])
 
 #model checkpoint
-checkpoint = ModelCheckpoint('model{epoch:08d}.h5', period = 1)
+checkpoint = ModelCheckpoint('model{epoch:02d}.h5', period = 1)
 
 #generate the model
 model.fit_generator(train_generator, steps_per_epoch = 320, epochs = 30, callbacks = [checkpoint], validation_data = val_generator, validation_steps = 40, workers = 1, use_multiprocessing = False)

@@ -8,7 +8,7 @@ height = int(720/3)
 width = int(1280/3)
 
 #load image
-image_path = 'lm2.jpg' #image path here
+image_path = 's.jpg' #image path here
 img = image.load_img(image_path, target_size = (height, width))
 img = image.img_to_array(img)
 img = img.reshape((1,) + img.shape)
