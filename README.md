@@ -22,7 +22,7 @@ Must first change the loaded model source, in code.
 
 Change the desired image path and the loaded model as pleased. 
 
-* In progress: 
+In progress: 
 - improving the model,
 - allowing program to take command line arguments
 
