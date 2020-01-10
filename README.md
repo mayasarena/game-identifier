@@ -5,6 +5,7 @@
 
 To collect data, run `screenshot.py`, which is a program that collects screenshots from a video every n frames.
 * Source video and <i>n</i> must be manually updated in code.
+Data must be stored in a folder called 'data', containing three folders called 'train', 'val', and 'test'. Each of these folders must include separate folders containing data from each game (ie. data/train/botw -> contains images from botw).
 
 To train, validate, and test the model, run `net.py`. This will save an updated model every <i>n</i> epochs. 
 
