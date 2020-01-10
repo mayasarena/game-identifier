@@ -4,12 +4,12 @@
 ## How to use
 
 To collect data, run `screenshot.py`, which is a program that collects screenshots from a video every n frames.
-* Source video and <i>n</i> must be manually updated in code
+* Source video and <i>n</i> must be manually updated in code.
 
 To train, validate, and test the model, run `net.py`. This will save an updated model every <i>n</i> epochs. 
 
 To test on an already existing model, run `test.py`.
-* Source model must be manually updated in code
+* Source model must be manually updated in code.
 
 To predict the category of an image, run `predict.py`. 
 * Desired image to predict and model must be updated in code. 
