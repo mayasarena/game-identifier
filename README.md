@@ -1,28 +1,26 @@
-# game-detector README
+# Game Detector
+<i>Game Detector</i> is an image classification model that detects which video game a given screenshot is from. The model was trained, validated, and tested using 10,000 screenshots from each video game. The four categories used were Breath of the Wild, Luigi's Mansion, Mario Odyssey, and Pokemon Let's Go. 
 
-* To get data:
+## How to use
 
-`screenshot.py`
+To collect data, run `screenshot.py`, which is a program that collects screenshots from a video every n frames.
+* Source video and <i>n</i> must be manually updated in code
 
-Grabs a screenshot from a video every n frames. Change input video in code. 
+To train, validate, and test the model, run `net.py`. This will save an updated model every <i>n</i> epochs. 
 
-* To train the model, run on the command line:
+To test on an already existing model, run `test.py`.
+* Source model must be manually updated in code
 
-`python net.py`
+To predict the category of an image, run `predict.py`. 
+* Desired image to predict and model must be updated in code. 
+* If different categories are used, print statements should be manually updated as well.
 
-* To test with an already existing model:
+## Results
 
-`python test.py`
+`working-model.h5` is the current up-to-date model, which has about 99% accuracy. 
+* Result images soon to come
 
-Must first change the loaded model source, in code.
+### Future improvements
 
-* To predict images using a loaded model:
-
-`python predict.py`
-
-Change the desired image path and the loaded model as pleased. 
-
-In progress: 
-- improving the model,
-- allowing program to take command line arguments
-
+* Create a model with more categories
+* Allow programs to take command line arguments
