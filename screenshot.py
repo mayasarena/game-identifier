@@ -5,7 +5,7 @@ import cv2
 import os
 
 #reading video
-vid = cv2.VideoCapture('videos/pokemon-2.mp4')
+vid = cv2.VideoCapture('video.mp4')
 
 #create folder named data
 
@@ -18,7 +18,7 @@ except OSError:
     print('Error creating directory')
 
 #get the current frame
-currentframe = 6405
+currentframe = 0
 count = 0
 
 while(True):
@@ -28,7 +28,7 @@ while(True):
     ret, frame = vid.read()
 
     if ret:
-        name = './data/pokeswsh' + str(currentframe) + '.jpg'
+        name = './data/screenshot' + str(currentframe) + '.jpg'
 
         #write extracted images
         cv2.imwrite(name, frame)

@@ -8,7 +8,7 @@ height = int(720/3)
 width = int(1280/3)
 
 #load image
-image_path = 's.jpg' #image path here
+image_path = 'img.jpg' #image path here
 img = image.load_img(image_path, target_size = (height, width))
 img = image.img_to_array(img)
 img = img.reshape((1,) + img.shape)
@@ -21,7 +21,8 @@ model = load_model('working-model.h5')
 class_prob = model.predict(img, batch_size = 1)
 np.set_printoptions(suppress = True, formatter = {'float_kind':'{:f}'.format})
 array = np.array(class_prob)
-print("\n\nProbabilities in order: BOTW, Luigi's Mansion, Mario Odyssey, Pokemon LG")
+print('\n\nProbabilities:')
+print("0: BOTW  1: LUIGI'S MANSION  2: MARIO ODYSSEY  3: POKEMON LET'S GO")
 print(array)
 
 classes = model.predict_classes(img, batch_size = 1)
