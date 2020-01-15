@@ -21,22 +21,22 @@ To predict the category of an image, run `predict.py`.
 `working-model.h5` is the current up-to-date model, which has 99.4% accuracy. Here are some predictions made by the model:
 
 Input image:
-![luigi's mansion][imgs/luigismansion.jpg]
+![luigi's mansion](Screenshots/luigismansion.jpg)
 
 Prediction:
-![luigi's mansion prediction][imgs/luigismansion.png]
+![luigi's mansion prediction](Screenshots/luigismansion.png)
 
 Input image:
-![botw][imgs/botw.png]
+![botw](Screenshots/botw.png)
 
 Prediction:
-![botw prediction][imgs/botws.png]
+![botw prediction](Screenshots/botws.png)
 
 Input image:
-![mario odyssey][imgs/marioodyssey.png]
+![mario odyssey](Screenshots/marioodyssey.png)
 
 Prediction:
-![mario odyssey prediction][imgs/marioodysseys.png]
+![mario odyssey prediction](Screenshots/marioodysseys.png)
 
 ### Future improvements
 
