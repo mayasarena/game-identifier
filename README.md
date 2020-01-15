@@ -18,7 +18,7 @@ To predict the category of an image, run `predict.py`.
 
 ## Results
 
-`working-model.h5` is the current up-to-date model, which has about 99% accuracy. 
+`working-model.h5` is the current up-to-date model, which has 99.4% accuracy. 
 * Result images soon to come
 
 ### Future improvements
