@@ -1,5 +1,5 @@
 # Game Detector
-<i>Game Detector</i> is an image classification model that detects which video game a given screenshot is from. The model was trained, validated, and tested using 10,000 screenshots from each video game. The four categories used were Breath of the Wild, Luigi's Mansion, Mario Odyssey, and Pokemon Let's Go. 
+<i>Game Detector</i> is an image classification model that identifies which video game a given screenshot is from. The model was trained, validated, and tested using 10,000 screenshots from each video game. The four categories used were Breath of the Wild, Luigi's Mansion, Mario Odyssey, and Pokemon Let's Go. 
 
 ## How to use
 
